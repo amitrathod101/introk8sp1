@@ -208,7 +208,8 @@ Now edit fluentd.yaml using vi or anything and do the following:
 1. Change kind: Deployment to kind:DaemonSet
 2. Remove the replicas:1 line
 3. Remove the status:{} line
-4. Remove the resources:{} line. 
+4. Remove the resources:{} line.
+5. Remove the strategy{} line.  
 
 Save the file and now apply it using kubectl apply
 
